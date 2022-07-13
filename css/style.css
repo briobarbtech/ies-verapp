@@ -1,0 +1,127 @@
+
+main {
+    margin: 0 auto;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 460px;
+    text-align: left;
+}
+.submit-button {
+    margin: 10px 0;;
+}
+label {
+    width: 220px;
+    margin-bottom: 5px;
+}
+
+.rol-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d0fafb;
+    border: 1px solid #053233;
+    border-radius: 5px;
+    max-width: 220px;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #053233;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px transparent;
+    width: 220px;
+    max-width: 100%;
+    height: 30px;
+    background: #d0fafb;
+    color: #000000;
+    padding-left: 5px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+.profile {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile__info{
+    display: flex;
+    align-items: center;
+}
+.profile__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: aquamarine;
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+}
+.profile__name {
+    margin-left: 20px;
+    color: #fff;
+}
+.fa-user {
+    font-size: 50px;
+}
+.drawner {
+    width: 400px;
+    height: 100vh;
+    background-color: #053233;
+    transition: 1s;
+    position: absolute;
+    top: 0;
+}
+.drawner__buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.drawner__button {
+    background-color: transparent;
+    height: 50px;
+    text-align: left;
+    color: #fff;
+    border: 1px solid #0000003e;
+}
+.fa-arrow-left {
+    margin-right: 20px;
+    font-size: 30px;
+    color: #fff;
+}
+.nav {
+    background-color: #053233;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-bars {
+    font-size: 30px;
+    color: #fff;
+    margin-left: 10px;
+}
+.bar__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+}
+.display {
+    display: none;
+    left: 150px;
+}
